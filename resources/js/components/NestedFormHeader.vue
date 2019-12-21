@@ -7,6 +7,7 @@
     <div class="flex">
       <nested-form-view
         :child="child"
+        :field="field"
         class="mx-2"
       />
       <nested-form-remove

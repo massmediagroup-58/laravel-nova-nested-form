@@ -2,6 +2,7 @@
   <nested-form-icon
     @click="toggleVisibility"
     hover-color="info"
+    v-if="field.max !== field.min"
   >
     <icon
       class="cursor-pointer"
